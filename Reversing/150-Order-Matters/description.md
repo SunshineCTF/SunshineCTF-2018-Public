@@ -1,0 +1,1 @@
+The vault to access this armory is protected with some weird password algorithm. Can you gain access?

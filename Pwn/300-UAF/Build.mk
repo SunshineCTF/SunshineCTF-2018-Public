@@ -1,0 +1,12 @@
+TARGET := uaf
+
+CANARY := 1
+NX := 1
+STRIP := 1
+
+DOCKER_IMAGE := uaf
+DOCKER_PORTS := 20001
+DOCKER_RUN_ARGS := --read-only
+
+PUBLISH := $(TARGET)
+PUBLISH_LIBC := $(TARGET)-libc.so

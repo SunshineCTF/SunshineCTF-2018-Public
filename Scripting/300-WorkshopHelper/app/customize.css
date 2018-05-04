@@ -1,0 +1,19 @@
+.just_filler_stuff {
+    color: green;
+}
+
+.question_view {
+    background: url('./imgs/gear.png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    display:block;
+    height: 200px;
+    padding-left: 80px;
+    padding-top: 100px;
+    color: white;
+    margin: 0;
+}
+
+.input_thing {
+    margin-top: 30px;
+}
