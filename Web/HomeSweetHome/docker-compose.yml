@@ -1,0 +1,13 @@
+name: sun18-homesweethome
+
+services:
+  homesweethome:
+    build: .
+    image: sun18-homesweethome
+    container_name: sun18-homesweethome
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18304:80"
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 512

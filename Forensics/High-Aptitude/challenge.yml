@@ -1,0 +1,24 @@
+version: "0.1"
+name: High Aptitude
+author: "charlton"
+category: Forensics
+description: |-
+  It's the same old routine day in, day out: snap some photos, fax 'em down. That's how we've been doing it for years, and we never needed any of your modern yuppie _"packet-switched networks"_ to make it happen, either. Nothin' but good 'ol American science.
+
+  Only wish I had something less obscure to look at instead of this blasted "flag" thing...
+
+  Note: Flag is in `flag{...}` format
+attribution: Written by charlton for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: standard
+value: 150
+flags:
+  - flag{email_is_way_easier}
+tags:
+  - "sunshinectf-2018"
+  - "intermediate"
+files:
+  - attachments/flag_148890.wav
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

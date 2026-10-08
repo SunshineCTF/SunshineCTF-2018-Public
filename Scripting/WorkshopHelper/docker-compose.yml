@@ -1,0 +1,13 @@
+name: sun18-workshophelper
+
+services:
+  workshophelper:
+    build: .
+    image: sun18-workshophelper
+    container_name: sun18-workshophelper
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18202:50001"
+    mem_limit: 512m
+    cpus: 1.0
+    pids_limit: 512

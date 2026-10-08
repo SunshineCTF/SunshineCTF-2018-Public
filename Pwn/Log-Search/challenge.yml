@@ -1,0 +1,20 @@
+version: "0.1"
+name: Log Search
+author: kcolley
+category: Pwn
+description: |-
+  This program searches through IRC logs. See if you can find anything else inside!
+
+  * [logsearch](/files/sun/18/Pwn/Log-Search/logsearch)
+  * [logsearch.c](/files/sun/18/Pwn/Log-Search/logsearch.c)
+attribution: Written by kcolley for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: standard
+value: 125
+connection_info: nc ctf.hackucf.org 18002
+flags:
+  - sun{**_********_**_hunter2}
+tags:
+  - "sunshinectf-2018"
+  - "intermediate"
+  - "format string"
+state: visible

@@ -1,0 +1,21 @@
+version: "0.1"
+name: Old Favorites
+author: Loavso
+category: Forensics
+description: |-
+  We were sent this file with the description '9/10 people could find the hidden flag, are you one of them?'.
+
+  * [OldFavorites.mp4](/files/sun/18/Forensics/OldFavorites/OldFavorites.mp4)
+attribution: Written by Loavso for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: standard
+value: 150
+flags:
+  - sun{you_know_the_rules}
+tags:
+  - "sunshinectf-2018"
+  - "intermediate"
+solution:
+  path: writeup.md
+  state: hidden
+next: "Old Favorites 2"
+state: visible
