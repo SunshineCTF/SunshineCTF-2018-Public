@@ -1,0 +1,21 @@
+version: "0.1"
+name: Workshop Helper
+author: "vraelvrangr"
+category: Scripting
+description: |-
+  Our workshop needs to figure out which gears to use in our mechs! Help us find those gears!
+attribution: Written by vraelvrangr for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: https://workshophelper.ctf.hackucf.org
+flags:
+  - sun{W3_g0t_the_g3ar5_w3_got_th3_p0w3r}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

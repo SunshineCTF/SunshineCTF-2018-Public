@@ -1,0 +1,22 @@
+version: "0.1"
+name: Order Matters
+author: "Winyl"
+category: Reversing
+description: |-
+  The vault to access this armory is protected with some weird password algorithm. Can you gain access?
+attribution: Written by Winyl for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{mY_IDA_bR1ngS_a11_Th3_B0ys_t0_tH3_y4rD}
+tags:
+  - "2018"
+files:
+  - attachments/order
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

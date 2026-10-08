@@ -1,0 +1,13 @@
+name: sun18-evaluation
+
+services:
+  evaluation:
+    build: .
+    image: sun18-evaluation
+    container_name: sun18-evaluation
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18301:80"
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 512

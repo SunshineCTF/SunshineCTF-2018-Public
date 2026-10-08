@@ -1,0 +1,26 @@
+version: "0.1"
+name: Home Sweet Home
+author: "leviathan"
+category: Web
+description: |-
+  ## HomeSweetHome
+
+  Looks like this site is doing some IP filtering.
+  That's very FORWARD thinking of them.
+
+  Have fun
+attribution: Written by leviathan for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: https://homesweethome.ctf.hackucf.org
+flags:
+  - sun{Th3rEs_n0_pl4cE_l1kE_127.0.0.1}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

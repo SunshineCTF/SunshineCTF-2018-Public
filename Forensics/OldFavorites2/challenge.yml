@@ -1,0 +1,22 @@
+version: "0.1"
+name: Old Favorites 2
+author: Loavso
+category: Forensics
+description: |-
+  It looks like they sent us the same file again? But maybe there's something new in this one.
+
+  Download: [OldFavorites2.mp4](https://ctf.hackucf.org/challenge-files/OldFavorites2.mp4)
+attribution: Written by Loavso for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{dont_3e_blind}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

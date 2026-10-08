@@ -1,0 +1,28 @@
+version: "0.1"
+name: SearchBox
+author: "leviathan"
+category: Web
+description: |-
+  ## SearchBox
+
+  This search engine doesn't look very secure.
+  Or well coded.
+  Or competent in any way shape or form.
+  This should be easy
+
+  Note: flag is in etc/flag.txt
+attribution: Written by leviathan for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: https://searchbox.ctf.hackucf.org
+flags:
+  - sun{R3quE5t_tyP3S_m4tT3r}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

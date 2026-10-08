@@ -1,0 +1,21 @@
+version: "0.1"
+name: Missing Bytes
+author: vraelvrangr
+category: Scripting
+description: |-
+  Some of our file systems have gotten corrupted and now file information is incorrect. Can you help us find those corrupt folders?
+attribution: Written by vraelvrangr for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: nc ctf.hackucf.org 18201
+flags:
+  - sun{a11_ur_byt3s_4re_b3long_t0_m3}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

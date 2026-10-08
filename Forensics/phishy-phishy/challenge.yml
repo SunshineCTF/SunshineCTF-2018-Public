@@ -1,0 +1,26 @@
+version: "0.1"
+name: Phishy Phishy
+author: lesssneaky
+category: Forensics
+description: |-
+  Updating to the newest version of Windows was a pain, but it was totally worth it! It allowed me to unlock my inner Creator, and truly bring the Canvas to life! I'm pretty sure that in the next major release, they are going to go one step further on my favorite application -- THE 4TH DIMENSION.
+
+  Hint 1: My brother sure loves pranking me... But I think he went to far this time. Last time he just defaced my project. This time, my project wont even open! Ugh.
+  Hint 2: Some weird `%localappdata%` directories are in my Quick Access history. Something about `Microsoft.MSPaint_8wekyb3d8bbwe`? IDK, this tech stuff is annoying. I should have bought a Mac.
+  Hint 3: If you haven't figured out the Paint3D part, I'm not sure what else I can suggest without giving you the flag.
+
+  Download: [phishy_chall.zip](https://ctf.hackucf.org/challenge-files/phishy_chall.zip)
+attribution: Written by lesssneaky for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{S0m3th1ng_wus_ph15hy}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

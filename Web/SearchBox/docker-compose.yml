@@ -1,0 +1,13 @@
+name: sun18-searchbox
+
+services:
+  searchbox:
+    build: .
+    image: sun18-searchbox
+    container_name: sun18-searchbox
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18303:80"
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 512

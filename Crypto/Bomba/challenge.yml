@@ -1,0 +1,29 @@
+version: "0.1"
+name: Bomba
+author: zero
+category: Crypto
+description: |-
+  We've intercepted this transmission and found this code sheet. See if you can decode the message!
+
+  ```
+  UCF 07 ZERO 0800 = 50 = MHW XGN =
+  LWB QMU YUD ADU ERI SGU UXE IVG LXK BWO MQP AEM UYG WNU NIR KFZ GQR BZ=
+  ```
+
+  Note: Wrap plaintext in `sun{}` before submitting!
+attribution: Written by zero for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{DAMNXTHATXBOMBAXKRYPTOLOGICZNAXANDXMARIANXREJEWSKI}
+tags:
+  - "2018"
+files:
+  - attachments/sheet.png
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

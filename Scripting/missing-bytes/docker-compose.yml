@@ -1,0 +1,13 @@
+name: sun18-missing-bytes
+
+services:
+  missing-bytes:
+    build: .
+    image: sun18-missing-bytes
+    container_name: sun18-missing-bytes
+    restart: unless-stopped
+    ports:
+      - "18201:30001"
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 512

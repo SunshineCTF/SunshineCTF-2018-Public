@@ -1,0 +1,23 @@
+version: "0.1"
+name: Data Exfil
+author: "Medic-"
+category: Forensics
+description: |-
+  ## Description
+  We think a critical document has been stolen out of our network, luckily our next gen IDS managed to capture the traffic during the attack. Can you tell us what they took?
+attribution: Written by Medic- for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{w0w_I_dns_s33_y0u_1n_h3r3}
+tags:
+  - "2018"
+files:
+  - attachments/DataExfil.zip
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

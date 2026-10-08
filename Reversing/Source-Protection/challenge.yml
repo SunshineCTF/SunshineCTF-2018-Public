@@ -1,0 +1,22 @@
+version: "0.1"
+name: Source Protection
+author: "dmaria"
+category: Reversing
+description: |-
+  People said I shouldn't use Python to write my password vault because they would be able to read my source code, but they underestimated how smart I am. In fact, I'm so confident in my source code protection that I'm going to upload my password vault and challeng a bunch of nerds to hack it. Good luck :)
+attribution: Written by dmaria for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+flags:
+  - sun{py1n574ll3r_15n7_50urc3_pr073c710n}
+tags:
+  - "2018"
+files:
+  - attachments/passwords.exe
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

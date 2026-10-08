@@ -1,0 +1,28 @@
+version: "0.1"
+name: Evaluation
+author: "leviathan"
+category: Web
+description: |-
+  ## Evaluation
+
+  Evaluate your life.
+  How are you doing, and are you doing the best you can possibly do?
+  Look deeper within yourself, beyond the obvious.
+  Look at the source of it all.
+
+  Also, here's a PHP challenge.
+attribution: Written by leviathan for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: https://evaluation.ctf.hackucf.org
+flags:
+  - sun{c0mm4nD_1Nj3cti0n_i5_E4sY}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

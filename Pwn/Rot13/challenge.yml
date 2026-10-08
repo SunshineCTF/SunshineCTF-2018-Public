@@ -1,0 +1,24 @@
+version: "0.1"
+name: Rot13
+author: kcolley
+category: Pwn
+description: |-
+  An inventor claims to have designed a machine that enciphers messages in a way that's impossible to break. He's holding a demo of this machine soon and is planning to allow people to try it out. See if you can find a way to ruin his demonstration!
+attribution: Written by kcolley for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: nc ctf.hackucf.org 18003
+flags:
+  - sun{q0hoy3_e0g13_1f_o3gg3e_gu4a_gu3_3a1tz4_z4pu1a3}
+tags:
+  - "2018"
+files:
+  - ../../publish/Pwn/Rot13/rot13
+  - ../../publish/Pwn/Rot13/rot13-libc.so
+solution:
+  path: writeup.md
+  state: hidden
+state: visible

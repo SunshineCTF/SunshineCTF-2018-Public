@@ -1,0 +1,21 @@
+version: "0.1"
+name: Marceau
+author: "charlton"
+category: Web
+description: |-
+  Hey my friend tells me that the flag is in this site's source code. Idk how to read that though, lol (🅱️retty lame tbh 😂)
+attribution: Written by charlton for [SunshineCTF 2018](https://ctftime.org/event/593)
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: https://marceau.ctf.hackucf.org
+flags:
+  - sun{45k_4nd_y3_5h411_r3c31v3}
+tags:
+  - "2018"
+solution:
+  path: writeup.md
+  state: hidden
+state: visible
