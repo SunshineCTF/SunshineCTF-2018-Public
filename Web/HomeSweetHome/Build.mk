@@ -1,3 +1,7 @@
 # docker-compose web challenge; `pwnmake check` starts it, runs the solver, and
 # tears it down.
 $(call ctf_check_web,$(DIR),18304,homesweethome.ctf.hackucf.org,bash solve.sh)
+
+# The challenge lets players spoof X-Forwarded-For, so route it trusting the
+# client-supplied value verbatim (publishes the .xff alongside the .http).
+$(call nginx_trust_xff,homesweethome.ctf.hackucf.org)
